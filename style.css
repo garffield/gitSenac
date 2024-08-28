@@ -13,11 +13,6 @@ a:hover {
     opacity: 0.7;
 }
 
-.logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
 
  nav {
     display: flex;
@@ -25,6 +20,7 @@ a:hover {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(0, 0, 0);
     height: 8vh;
+    padding-top: 10px;
  }
  
 .nav-list {
@@ -36,31 +32,43 @@ a:hover {
     margin-left: 32px;
 }
 
-main {
+body {
     background: url(bg.jpg) no-repeat center center;
     position: relative;
     background-size: cover;
     height: 92vh;
 }
-main::before { /* SOMBREAMENTO DO BACKGROUND */
-    content:"";
+
+#sec-contato{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur (5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 30px 18px;
+}
+.row{
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-    left: 0;
-    background-color: black;
-    opacity: 0.6;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+#login{
+    text-align: center;
 }
 
-.ola{
-    position: relative;
-    z-index: '';KOOPPPPPPPOLLLLLLLLLLLLLLLLLL
-    
+button {
+    padding: 2px;
+    border: 1px;
+    border-radius: 3px;
 }
-
-.nav-list li{
-    letter-spacing: 3px;
-    margin-left: 32px;
-}
-
