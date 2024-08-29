@@ -9,65 +9,35 @@ a {
     color: #fff;
     text-decoration: none;
 }
-a:hover {
-    opacity: 0.7;
-}
 
- nav {
+header{
+    
     display: flex;
     justify-content: space-around;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
-    height: 8vh;
-    padding-top: 10px;
+    background-image: linear-gradient(to bottom, #000000, #006414);
+    height: 100px;    
+}
+ nav {
  }
  
+
+.logo {
+    position: absolute;
+    
+}
+
+.perfil { 
+    
+}
 .nav-list {
     list-style: none;
     display: flex;
+    align-items: center;
 }
+
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
-}
-
-body {
-    background: url(bg.jpg) no-repeat center center;
-    position: relative;
-    background-size: cover;
-    height: 92vh;
-}
-
-#sec-contato{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50%;
-}
-
-#form-contato {
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur (5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgb(0, 0, 0);
-    padding: 30px 18px;
-}
-.row{
-    width: 100%;
-    margin: 5px 0;
-    display: flex;
-    flex-direction: column;
-}
-#login{
-    text-align: center;
-}
-
-button {
-    padding: 2px;
-    border: 1px;
-    border-radius: 3px;
 }
