@@ -1,0 +1,36 @@
+.card-camisa {
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid rgb(0, 0, 0); 
+    background-color: transparent;
+    border-radius: 7px;
+    
+}
+
+.preco-antigo {
+    color: #818181;
+    font-size: 11px;
+}
+.unidades {
+    font-size: 14px;
+    color: #818181;
+}
+
+.preco-novo {
+    font-size: 24px;
+    color: #29AC0E;
+}
+
+.parcela {
+    color: #D32222;
+}
+
+.nome-camisa {
+    font-size: 18px;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.center {
+    padding-left: 20px;
+}
