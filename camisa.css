@@ -1,36 +1,56 @@
+.camisa-img {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    object-position: center;    
+}
+
+.camisa-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
 .card-camisa {
-    height: fit-content;
-    width: fit-content;
+    height: 387px;
+    width: 258px;
     border: 2px solid rgb(0, 0, 0); 
     background-color: transparent;
     border-radius: 7px;
     
 }
 
-.preco-antigo {
+.section-camisa .card-camisa .center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.section-camisa .card-camisa .preco-antigo {
     color: #818181;
     font-size: 11px;
 }
-.unidades {
+.section-camisa .card-camisa .unidades {
     font-size: 14px;
     color: #818181;
+    
 }
 
-.preco-novo {
+.section-camisa .card-camisa .preco-novo {
     font-size: 24px;
     color: #29AC0E;
 }
 
-.parcela {
+.section-camisa .card-camisa .parcela {
     color: #D32222;
 }
 
-.nome-camisa {
+.section-camisa .card-camisa .nome-camisa {
     font-size: 18px;
-    justify-content: center;
-    padding-left: 20px;
+    text-align: center;
 }
 
-.center {
-    padding-left: 20px;
+.section-camisa .card-camisa .center * {
+    padding: 3px;
+    margin: 0;
 }
