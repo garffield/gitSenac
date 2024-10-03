@@ -43,32 +43,9 @@ nav {
     align-items: center;
 }
 
-aside {
-    background-color: #000000;
-    width: 200px;
-    height: 100vh;
-    padding: 20px;
-}
-
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
-}
-
-.barra-lateral {
-    list-style: none;
-}
-
-.barra-lateral li {
-    margin-bottom: 10px;
-}
-
-.barra-lateral a {
-    display: block;
-    padding: 10px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #006414;
 }
 
 footer {
