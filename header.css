@@ -104,3 +104,37 @@ a {
     display: flex;
     align-items: center;
 }
+
+#carousel {
+    height: 600px;
+    background-color: aliceblue;
+}
+
+#carousel #carousel-content {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    justify-content: center;
+}
+
+#carousel #carousel-content #slide {
+    width: 417px;
+    height: 500px;
+    background-color: #dddddd;
+}
+
+#carousel p{
+    font-size: 30px;
+}
+
+#carousel #carousel-content button #arrow-box {
+    width: 20px;
+    height: 20px;
+}
+
+#carousel #carousel-content button #arrow-box img{ 
+    width: 20px;
+    height: 20px;
+    object-position: center;
+    object-fit: cover;
+}
